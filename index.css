@@ -370,6 +370,8 @@ footer {
     footer{
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 35px;
     }
     .footer-section{
         height: 200px;
@@ -377,6 +379,21 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        align-content: space-between;
+
+    }
+    .footer-section-item{
+        margin: 20px 50px;
+    
     }
 
+    .footer-item:nth-child(2){
+        padding-right: 300px;
+    }
+    .copyright-mark{
+       padding-right: 40px;
+    }
+    .social-media{
+       padding-left: 40px;
+    }
 }
