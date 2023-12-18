@@ -130,6 +130,7 @@ a {
     color: hsl(233, 8%, 62%);
     margin-top: 20px;
     line-height: 1.5;
+    padding: 0px 30px;
 }
 
 .container2 {
@@ -145,6 +146,7 @@ a {
     font-size: large;
     color: hsl(233, 8%, 62%);
     margin-top: 20px;
+    padding: 40px;
 }
 
 .easycom-container2-wrapper {
@@ -358,7 +360,7 @@ footer {
     }
 }
 
-@media (min-width:768px){
+@media (min-width:912px){
     footer{
         flex-direction: row;
         flex-wrap: nowrap;
@@ -425,3 +427,20 @@ footer {
     .nav-container-item:nth-child(3){
         display: block;
 }}
+
+@media(min-width:431px){
+    .container1{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+    }
+    .easycom-container-item> img:nth-child(1){
+      z-index: 0;
+    }
+    .easycom-container-item> img:nth-child(2){
+        z-index: 1;
+      }
+      .easycom-container-item:nth-child(1){
+
+    z-index: -1;
+      }
+}
