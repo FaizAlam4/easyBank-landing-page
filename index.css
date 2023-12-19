@@ -110,7 +110,10 @@ a {
     text-decoration: none;
     background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
-
+button:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
 .container1 {
     display: flex;
     flex-flow: column nowrap;
@@ -126,6 +129,8 @@ a {
     min-height: 20vh;
     position: relative;
 }
+
+
 
 .easycom-container-item:nth-child(2) {
     font-size: 2.3rem;
@@ -326,6 +331,15 @@ footer {
         flex-direction: row;
         flex-wrap: nowrap;
     }
+    
+    .easycom-container-item>span{
+        display: block;
+        padding-left: 30px;
+    }
+    .easycom-container-item button{
+        display: block;
+        margin-left:4vh ;
+    }
 
     .container2 {
         text-align: left;
@@ -339,14 +353,21 @@ footer {
     .article-column {
         flex-direction: row;
         flex-wrap: nowrap;
-    }
 
+    }
+  article{
+    padding: 0px 50px;
+  }
     article>p {
         text-align: left;
     }
 
     .article-item img {
-        height: 320px;
+        height: 250px;
+    }
+
+    .container2{
+        padding: 50px 50px;
     }
 }
 
@@ -357,7 +378,7 @@ footer {
     }
 }
 
-@media(max-width:1165px) {
+@media(max-width:1244px) {
     .easycom-container2-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
@@ -457,7 +478,6 @@ footer {
 @media(min-width:431px) {
     .container1 {
         display: flex;
-        /* height: 400px; */
         flex-flow: row-reverse nowrap;
     }
 
@@ -470,7 +490,6 @@ footer {
         z-index: 1;
         position: relative;
         top: 10vh;
-        /* width: 100vh; */
 
     }
 
@@ -478,7 +497,7 @@ footer {
 
         z-index: -1;
         position: relative;
-        top: -30vh;
+        top: -25vh;
         background: url('./images/bg-intro-desktop.svg') top left no-repeat;
         background-size: cover;
         background-position-x: -8vh;
@@ -493,7 +512,9 @@ footer {
 
 
     }
-
+    .easycom-container-item:nth-child(2) {
+   text-align: left;
+    }
     .container2 {
         margin-top: -30vh;
         position:relative;
