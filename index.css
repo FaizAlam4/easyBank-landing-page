@@ -496,14 +496,14 @@ footer {
 
     .container2 {
         margin-top: -30vh;
-        position: relative;
+        position:relative;
         z-index: -2;
     }
 
 
 }
 
-@media (max-width:1137px) {
+@media (max-width:1100px) {
     .container1 {
         flex-flow: column nowrap;
     }
@@ -516,5 +516,11 @@ footer {
 @media(max-width:700px) {
     .easycom-container-item>img:nth-child(2) {
         width: 80vw;
+    }
+}
+@media( max-width:1471px){
+    .easycom-container-item:nth-child(2){
+      padding: 0px;
+      padding-top: 10px;
     }
 }
