@@ -45,7 +45,7 @@ body {
 nav {
     background-color: rgb(241, 249, 249);
     width: 100%;
-    height: 57px;
+    min-height: 57px;
 }
 
 .nav-bar-unhide {
@@ -409,7 +409,7 @@ footer {
         flex-wrap: nowrap;
         top: 1vh;
     }
-
+ 
     .nav-container-item:nth-child(3) {
         display: none;
     }
