@@ -74,16 +74,19 @@ a {
     position: relative;
     display: inline-block;
     z-index: -1;
-    bottom: 12vh;
+    bottom: 13vh;
+    right: 4vh;
 
 
 }
 
 [src="./images/bg-intro-mobile.svg"] {
-    width: 100%;
+    width: 100vw;
     position: absolute;
-    top: 0;
+    top: 2;
     bottom: 0;
+    right: 0;
+    left: 0;
     z-index: -2;
 }
 
@@ -314,6 +317,8 @@ footer {
     .nav-container-item:nth-child(4) {
         display: none;
     }
+
+
 }
 
 @media(min-width:431px) {
@@ -406,16 +411,18 @@ footer {
     .nav-bar {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        justify-content: center;
         top: 1vh;
     }
- 
+
     .nav-container-item:nth-child(3) {
         display: none;
     }
 
     .nav-item {
         background-color: rgb(241, 249, 249);
+        max-width: 10vh;
     }
 
     .nav-item>a {
@@ -429,6 +436,7 @@ footer {
     .nav-item:hover {
 
         border-bottom: 4px solid hsl(150, 42%, 66%);
+        transform: scale(1.1);
     }
 }
 
@@ -504,8 +512,9 @@ footer {
         margin-top: 0px;
     }
 }
-@media(max-width:700px){
-    .easycom-container-item>img:nth-child(2){
+
+@media(max-width:700px) {
+    .easycom-container-item>img:nth-child(2) {
         width: 80vw;
     }
 }
