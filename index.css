@@ -110,10 +110,12 @@ a {
     text-decoration: none;
     background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
-button:hover{
+
+button:hover {
     transform: scale(1.1);
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .container1 {
     display: flex;
     flex-flow: column nowrap;
@@ -152,7 +154,7 @@ button:hover{
     font-weight: 300;
     color: hsl(233, 26%, 24%);
     text-align: center;
-    padding: 30px 10px;
+    padding: 88px 10px;
     background-color: hsl(220, 16%, 96%);
 }
 
@@ -331,14 +333,15 @@ footer {
         flex-direction: row;
         flex-wrap: nowrap;
     }
-    
-    .easycom-container-item>span{
+
+    .easycom-container-item>span {
         display: block;
         padding-left: 30px;
     }
-    .easycom-container-item button{
+
+    .easycom-container-item button {
         display: block;
-        margin-left:4vh ;
+        margin-left: 4vh;
     }
 
     .container2 {
@@ -355,9 +358,11 @@ footer {
         flex-wrap: nowrap;
 
     }
-  article{
-    padding: 0px 50px;
-  }
+
+    article {
+        padding: 0px 50px;
+    }
+
     article>p {
         text-align: left;
     }
@@ -366,7 +371,7 @@ footer {
         height: 250px;
     }
 
-    .container2{
+    .container2 {
         padding: 50px 50px;
     }
 }
@@ -512,12 +517,14 @@ footer {
 
 
     }
+
     .easycom-container-item:nth-child(2) {
-   text-align: left;
+        text-align: left;
     }
+
     .container2 {
         margin-top: -30vh;
-        position:relative;
+        position: relative;
         z-index: -2;
     }
 
@@ -525,9 +532,6 @@ footer {
 }
 
 @media (max-width:1100px) {
-    .container1 {
-        flex-flow: column nowrap;
-    }
 
     .container2 {
         margin-top: 0px;
@@ -539,9 +543,17 @@ footer {
         width: 80vw;
     }
 }
-@media( max-width:1471px){
-    .easycom-container-item:nth-child(2){
-      padding: 0px;
-      padding-top: 10px;
+
+@media(max-width:1471px) {
+    .easycom-container-item:nth-child(2) {
+        padding: 20px;
+
     }
+}
+
+@media((min-width:431px) and (max-width:701px)) {
+    .easycom-container-item>img:nth-child(2) {
+        width: 100%;
+    }
+
 }
