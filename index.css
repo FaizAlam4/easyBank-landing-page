@@ -27,7 +27,6 @@ body {
     position: relative;
     top: 18vh;
     left: 0vw;
-    /* right: 10vw; */
 
 }
 
@@ -74,8 +73,8 @@ a {
     position: relative;
     display: inline-block;
     z-index: -1;
-    bottom: 13vh;
-    right: 4vh;
+    bottom: 16vh;
+    right: 0vh;
 
 
 }
@@ -87,7 +86,7 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-    z-index: -2;
+    z-index: -2;/* right: 10vw; */
 }
 
 .easycom-head {
