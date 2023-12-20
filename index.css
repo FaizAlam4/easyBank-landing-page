@@ -323,7 +323,10 @@ footer {
     .nav-container-item:nth-child(4) {
         display: none;
     }
-
+    .easycom-container-item:nth-child(2){
+        padding:5vh 0vh;
+    
+    }
 
 }
 
@@ -512,7 +515,9 @@ footer {
 
     .easycom-container-item:nth-child(2) {
         align-self: flex-start;
-        padding: 15vh 5vh;
+        padding: 15vh 20vh;
+        margin-top:10px;
+        width:70%
 
 
     }
@@ -543,9 +548,10 @@ footer {
     }
 }
 
-@media(max-width:1471px) {
+@media((min-width:431px)and(max-width:1471px)) {
     .easycom-container-item:nth-child(2) {
-        padding: 20px;
+        padding: 54px;
+      
 
     }
 }
@@ -553,6 +559,10 @@ footer {
 @media((min-width:431px) and (max-width:701px)) {
     .easycom-container-item>img:nth-child(2) {
         width: 100%;
+    }
+    .easycom-container-item:nth-child(2){
+        padding: 0;
+        width: 50%;
     }
 
 }
