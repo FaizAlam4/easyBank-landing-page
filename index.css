@@ -110,8 +110,8 @@ a {
     background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
 
-button:hover {
-    transform: scale(1.1);
+.request:hover {
+   background: linear-gradient(to right, hsla(136, 65%, 74%, 0.886), hsla(192, 93%, 67%, 0.963));
     cursor: pointer;
 }
 
@@ -278,8 +278,14 @@ footer>div>img {
     margin: 5px;
 }
 
-.social-media-icon img {
+.social-media-icon svg {
     width: 31px;
+}
+.svg-icon{
+    fill:white
+}
+.svg-icon:hover {
+    fill: hsl(136, 65%, 51%);
 }
 
 footer {
@@ -301,6 +307,10 @@ footer {
     align-items: center;
 }
 
+.footer-section li:hover a{
+    color:  hsl(136, 65%, 51%);
+}
+
 .footer-section-item {
     margin: 16px;
 }
@@ -318,6 +328,11 @@ footer {
     font-size: smaller;
     padding-bottom: 40px;
 }
+
+
+
+
+
 
 @media(max-width:431px) {
     .nav-container-item:nth-child(4) {
@@ -450,7 +465,7 @@ footer {
 
     .nav-item {
         background-color: rgb(241, 249, 249);
-        max-width: 10vh;
+        min-width: 5vh;
     }
 
     .nav-item>a {
@@ -517,7 +532,7 @@ footer {
         align-self: flex-start;
         padding: 15vh 20vh;
         margin-top:10px;
-        width:70%
+        width:100%
 
 
     }
@@ -535,7 +550,7 @@ footer {
 
 }
 
-@media (max-width:1100px) {
+@media (max-width:1190px) {
 
     .container2 {
         margin-top: 0px;
@@ -556,7 +571,7 @@ footer {
     }
 }
 
-@media((min-width:431px) and (max-width:701px)) {
+@media((min-width:431px) and (max-width:901px)) {
     .easycom-container-item>img:nth-child(2) {
         width: 100%;
     }
