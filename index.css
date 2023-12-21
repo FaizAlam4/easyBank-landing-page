@@ -586,3 +586,14 @@ footer {
     }
 
 }
+@media((min-width: 431px)and (max-width:638px)){
+    .container1{
+
+        flex-flow:column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .easycom-container-item:nth-child(2) {
+        width: 100%;
+    }
+}
