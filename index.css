@@ -36,9 +36,13 @@ body {
     background-color: hsl(0, 0%, 98%);
 
 }
+.nav-item a{
+    color: hsl(233, 8%, 62%);
+}
 
-.nav-item:hover{
+.nav-item:hover a{
     border-bottom: 4px solid hsl(136, 65%, 51%);
+    color: black;
 }
 
 nav {
