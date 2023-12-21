@@ -567,7 +567,7 @@ footer {
     }
 }
 
-@media((min-width:431px)and(max-width:1471px)) {
+@media((min-width:431px) and (max-width:1471px)) {
     .easycom-container-item:nth-child(2) {
         padding: 54px;
 
@@ -586,7 +586,7 @@ footer {
     }
 
 }
-@media((min-width: 431px)and (max-width:638px)){
+@media((min-width: 431px) and (max-width:638px)){
     .container1{
 
         flex-flow:column nowrap;
@@ -597,3 +597,23 @@ footer {
         width: 100%;
     }
 }
+
+@media((min-height:851px) and (max-width:2000px)){
+    .container2{
+        
+        margin-top: 0px;
+    }
+    .nav-container-item:nth-child(4) {
+        display: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-container-item:nth-child(3) {
+        display: block;
+    }
+    
+}
+
