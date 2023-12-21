@@ -19,7 +19,7 @@ body {
 
 .nav-bar {
     display: none;
-    background-color: hsl(0, 0%, 98%);
+    background-color: rgb(241, 249, 249);
     flex-flow: column nowrap;
     text-decoration: none;
     justify-content: space-around;
@@ -27,6 +27,7 @@ body {
     position: relative;
     top: 18vh;
     left: 0vw;
+    
 
 }
 
@@ -489,7 +490,7 @@ footer {
     }
 }
 
-@media(max-width:1097px) {
+@media(max-width:1172px) {
     .nav-container-item:nth-child(4) {
         display: none;
     }
@@ -554,7 +555,7 @@ footer {
 
 }
 
-@media (max-width:1361px) {
+@media ((max-width:1361px)) {
 
     .container2 {
         margin-top: 0px;
