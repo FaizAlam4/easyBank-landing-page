@@ -441,9 +441,8 @@ section {
         transform: translate(-7%, -23%);
         z-index: -1;
         overflow: hidden;
-        /* width: 70vw; */
-        position: relative;
-        right: 0;
+        position: relative; 
+        right: -3.9%;
 
     }
 
