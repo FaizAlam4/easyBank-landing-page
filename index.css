@@ -36,11 +36,12 @@ body {
     background-color: hsl(0, 0%, 98%);
 
 }
-.nav-item a{
+
+.nav-item a {
     color: hsl(233, 8%, 62%);
 }
 
-.nav-item:hover a{
+.nav-item:hover a {
     border-bottom: 4px solid hsl(136, 65%, 51%);
     color: black;
 }
@@ -130,9 +131,13 @@ a {
 
 .easycom-container-item:nth-child(2) {
     font-size: 2.3rem;
-    padding: 0px 9px;
+    padding: 0px 100px;
     color: hsl(233, 26%, 24%);
 
+}
+
+.article-column img {
+    height: 200px;
 }
 
 .easycom-about {
@@ -201,7 +206,7 @@ a {
 
 .article-column img {
     width: 100%;
-    min-height: fit-content;
+    height: 220px;
     border-radius: 7px 7px 0px 0px;
 }
 
@@ -393,7 +398,13 @@ section {
 
     .article-column {
         flex-flow: row nowrap;
+        margin: 10px 40px;
     }
+
+    .easycom-container2-item img {
+        height: 150px;
+    }
+
 
     footer {
         flex-flow: row nowrap;
@@ -432,16 +443,22 @@ section {
     .container2 {
         margin-top: -40vh;
         position: relative;
-        z-index: -2;
+        z-index: -1;
+        text-align: left;
+    }
+
+    #eb {
+        display: inline-block;
+        margin-left: 4vh;
     }
 
     .easycom-container-item:nth-child(1) {
         background: url('images/bg-intro-desktop.svg') no-repeat;
         background-size: cover;
         transform: translate(-7%, -23%);
-        z-index: -1;
+        z-index: 1;
         overflow: hidden;
-        position: relative; 
+        position: relative;
         right: -3.9%;
 
     }
@@ -449,8 +466,8 @@ section {
     [src="./images/image-mockups.png"] {
 
         left: 20%;
-        bottom: -7vh;
-        z-index: 1;
+        bottom: -2vh;
+        z-index: 2;
         width: 100%;
 
 
@@ -483,7 +500,7 @@ section {
     }
 }
 
-@media((max-width:3000px)and (min-height:1000px)) {
+@media((max-width:3000px)and (min-height:900px)) {
     .container2 {
         margin-top: 0;
     }
